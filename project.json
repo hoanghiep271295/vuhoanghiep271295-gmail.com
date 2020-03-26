@@ -1,0 +1,31 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 60,
+    "noCache": false,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d",
+        "extensions"
+    ],
+    "jsList": [
+        "src/resource.js",
+        "src/sha256.min.js",
+        "src/Core/Utils/AnimationUtils.js",
+        "src/Core/Utils/utils.js",
+        "src/Core/GUI/Scenes/BaseScene.js",
+        "src/Core/GUI/BaseLayer.js",
+        "src/Core/GUI/RectMask.js",
+        "src/Core/Network/WebsocketClient.js",
+        "src/Core/Network/AssetDownloader.js",
+        "src/Core/Network/httpnetwork.js",
+        "src/Core/Native/IAPManager.js",
+        "src/Core/Native/NativeHelper.js",
+        "src/Core/Utils/moment.min.js",
+        "res/sunny/js/config.js",
+        "src/app.js"
+    ]
+}

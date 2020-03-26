@@ -1,0 +1,51 @@
+{
+    "android": {
+        "OneSignal": {
+            "sound": true,
+            "vibrate": true,
+            "project_number": "821307619265",
+            "debug": false,
+            "notifications_when_active": false, 
+            "id": "ae78788f-adca-4efa-bb6d-8b0cd615934d"
+        }, 
+        "iap": {
+            "items": {
+                "69k": {
+                    "id": "com.game.iwinpro.69k"
+                }, 
+                "45k": {
+                    "id": "com.game.iwinpro.45k"
+                }, 
+                "22k": {
+                    "id": "com.game.iwinpro.22k"
+                }
+            }, 
+            "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7eIGu7dRcBRBSC05cYvxjBMd7cqq9w6++1er+cqO2tyWPtWB4vuTkliq4k/Fkylx5UMfptdOYOW8ENgQyVucs/NyuOAGmve4j5JFhLPcLa6LjO2HUSY6zk04DRR9Zw7YPET4WAezZTz8jYMGhPG08HYltVj8cmSpSFWd1nI0pGOJoLQIMkIkXplgnPQRbMpuOu70vnQQBS1RFcoFT7OjaV8U0cfJzMoS1TMkGqaJKks2T+qOBNTtkXzge92EnvYIkhpCfN98dj6aQmETNp5yj5Fa+jcbAVF8dy5xymJwioL89XQKfKkGR+P6ESMoBEPfIZYIlMU8EUwmC+UKGLujQIDAQAB"
+        }
+    }, 
+    "ios": {
+        "OneSignal": {
+            "debug": false, 
+            "id": "b9c7cd2f-4fe7-4808-b170-f6a3bda32232", 
+            "auto_register": true
+        }, 
+        "iap": {
+            "items": {
+                "remove_ads": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non1"
+                }, 
+                "coin_package": {
+                    "id": "com.cocos2dx.plugintest2"
+                }, 
+                "double_coin": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non2"
+                }, 
+                "coin_package2": {
+                    "id": "com.cocos2dx.plugintest3"
+                }
+            }
+        }
+    }
+}
